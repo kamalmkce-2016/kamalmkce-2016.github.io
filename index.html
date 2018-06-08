@@ -1,103 +1,303 @@
-<html>
-<head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body>
-<div class="background"> 
-<div class="nav">
-	<a class= "a active" href="#">HOME</a>
-	<a class= "b " href="#">ABOUT ME</a>
-	<a class= "c " href="#">ACADEMICS</a>
-	<a class= "d " href="#">ACHIVEMENTS</a>
-	<a class= "e " href="#">CONTACT</a>
-</div>
-<div class ="content">
-<br>
-<br>
-<br>
-<br>
-<div class="pic">
-	<img src="http://bit.ly/2HuPLlV" ALT="kamalnathlp" width="270px" height="350 px">
-</div>
+<!DOCTYPE html>
+<html lang="en">
 
+  <head>
 
-<div class="home">
-	<h1>KAMALNATH</h1>
-	<h3>COMPUTER SCIENCE ENGINEER</h3>
-</div>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<div class="about">
-	<p>
-	The Person Who is a thinker about the future education system for the upcoming world and thought to giving a education in practical manner without Examinations before, few things about the person is, Kamalnath.L.P born in <a href ="https://www.google.com/maps/place/R.Pudupatti,+Tamil+Nadu+637407/@11.4974408,78.2672025,17z/data=!3m1!4b1!4m5!3m4!1s0x3babeae9f1eed9c5:0xf168d6b514dcf277!8m2!3d11.4975607!4d78.2711069" color="red">R.Pudupatti</a> village in Taminadu.
-	</p>
-</div>
+    <title>Resume </title>
 
-<div class="contact">
-	<div class="contactform">
-	<form action="mailto:kamalnathlp@gmail.com" method="post">
-		<input type="text" class="inputtext" value="First Name">
-		<input type="text" class="inputtext" value="Last Name">
-		<input type="email" class="inputtext" value="Your Email">
-		<textarea cols="4" class="inputmessage" rows="6">Your Message!!!!</textarea>
-		<input type="submit" name="" class="submitbutton" value="submit">
-		
-	</form>
-	
-	
-	</div>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-</div>
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
 
-</div>
-</div>
+  </head>
 
+  <body id="page-top">
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">conn2kamal</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="http://bit.ly/2HuPLlV" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-<script type="text/javascript">
-		$(document).ready(function()
-		{$('a').click(function(){
-		//alert("click")});
-		var selected = $(this);
-		$('a').removeClass('active');
-		$(selected).addClass('active');
-		});
-		
-		var $a = $('.a'),
-		$b = $('.b'),
-		$c = $('.c'),
-		$d = $('.d'),
-		$e = $('.e'),
-		$pic = $('.pic'),
-		$home = $('.home'),
-		$about = $('.about');
-		$contact = $('.contact');
-		
-		$a.click(function(){
-		$home.fadeIn();
-		$pic.fadeIn();
-		$about.fadeOut();
-		$contact.fadeOut();
-		});
-		
-		$b.click(function(){
-		$about.fadeIn();
-		$pic.fadeOut();
-		$home.fadeOut();
-		$contact.fadeOut();
-		});
-		
-		$e.click(function(){
-		$about.fadeOut();
-		$pic.fadeOut();
-		$home.fadeOut();
-		$contact.fadeIn();
-		});
-		
-	});
-</script>
+    <div class="container-fluid p-0">
 
-</body>
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">Kamalnath
+            <!--<span class="text-primary">Taylor</span> -->
+          </h1>
+          <div class="subheading mb-5">R.Pudupatti Rasipuram Namakkal. pin:637407· (+91) 94433-85464
+            <a href="mailto:name@email.com">kamalcse31@gmail.com</a>
+          </div>
+          <p class="mb-5">I am python lover and enthusiastic learner in new technologies, and having more thirst in tasting the Artificial Intelligence and to become a collaborative entrepreneur.Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+
+     </p>
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/kamalnath.lp">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="kamalcse31@email">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-google fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/kamalnathlp/"
+">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/kamalmkce-2016">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="mb-5">Experience</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Developer</h3>
+              <div class="subheading mb-3">TBA</div>
+              <p>Trying my best</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary"></span>
+            </div>
+          </div>
+
+          <!-- <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Web Developer</h3>
+              <div class="subheading mb-3">Intelitec Solutions</div>
+              <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">December 2011 - March 2013</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Junior Web Designer</h3>
+              <div class="subheading mb-3">Shout! Media Productions</div>
+              <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">July 2010 - December 2011</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Web Design Intern</h3>
+              <div class="subheading mb-3">Shout! Media Productions</div>
+              <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2008 - June 2010</span>
+            </div>
+          </div>
+
+        </div>
+
+      </section> -->
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Education</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">M.Kumarasamy College of Engineering</h3>
+              <div class="subheading mb-3">Bachelor of Engineering</div>
+              <div>Computer Science and Engineering</div>
+              <p>CGPA: 7.56(Present)</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">June 2016 - May 2018</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">SRV Excel Matric Higher Secondary School</h3>
+              <div class="subheading mb-3">Hsc - Biology</div>
+              <p>Percentage: 79.8%</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">April 2015 - May 2016</span>
+            </div>
+          </div>
+		  
+		  <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Vidhya Nikethan Matric Higher Secondary School</h3>
+              <div class="subheading mb-3">SSLC</div>
+              <p>Percentage: 94.8%</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">May 2013 - April 2014</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-5">Skills</h2>
+
+          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+          <ul class="list-inline list-icons">
+            <li class="list-inline-item">
+              <i class="devicons devicons-python"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-github"></i>
+            </li>
+			<li class="list-inline-item">
+              <i class="devicons devicons-windows"></i>
+            </li>
+			<li class="list-inline-item">
+              <i class="devicons devicons-ubuntu"></i>
+            </li>
+			<li class="list-inline-item">
+              <i class="devicons devicons-pycharm"></i>
+            </li>
+            
+          </ul>
+
+          <div class="subheading mb-3">Projects</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              PytoMap</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Snake Game using C</li>
+            
+          </ul>
+		 
+		  
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+        <div class="my-auto">
+          <h2 class="mb-5">Interests</h2>
+          <p>Apart from being a developer, I enjoy most of my time being thinking about the future village development, #Village-improvement.</p>
+          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows,and I spend a large amount of my free time exploring the latest technolgy advancements in the development world.</p>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+        <div class="my-auto">
+          <h2 class="mb-5">Awards &amp; Certifications</h2>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Paper Presentation - “Cloud Computing” at Nougat 2k18, a National Level Technical Symposium in AVS College of Technology.</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              workshop - Big Data and Hadoop , a National Level Technical Symposium in National Institute of  Technology – Vortex’18</li>
+			<li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              workshop - Building Applications on Cloud at our college by Cloud Bull – 14&15 – sep’17</li>
+			<li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Paper Presentation - “The impact of the use of the Sms and Email Learning” at Science Forum in Muthayammal College of  Engineering, Namakkal - February 2017</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              1<sup>st</sup>
+              Place - Technical Quiz  at Nougat 2018, a National Level Technical Symposium </li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              1<sup>st</sup>
+              Place - College intra-meet-2k17</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              2<sup>nd</sup>
+              Place - Code Debugging at Nougat 2k18, a National Level Technical Symposium </li>
+            <li>
+            
+          </ul>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+  </body>
+
 </html>
