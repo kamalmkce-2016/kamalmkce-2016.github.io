@@ -1,0 +1,103 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="background"> 
+<div class="nav">
+	<a class= "a active" href="#">HOME</a>
+	<a class= "b " href="#">ABOUT ME</a>
+	<a class= "c " href="#">ACADEMICS</a>
+	<a class= "d " href="#">ACHIVEMENTS</a>
+	<a class= "e " href="#">CONTACT</a>
+</div>
+<div class ="content">
+<br>
+<br>
+<br>
+<br>
+<div class="pic">
+	<img src="http://bit.ly/2HuPLlV" ALT="kamalnathlp" width="270px" height="350 px">
+</div>
+
+
+<div class="home">
+	<h1>KAMALNATH</h1>
+	<h3>COMPUTER SCIENCE ENGINEER</h3>
+</div>
+
+<div class="about">
+	<p>
+	The Person Who is a thinker about the future education system for the upcoming world and thought to giving a education in practical manner without Examinations before, few things about the person is, Kamalnath.L.P born in <a href ="https://www.google.com/maps/place/R.Pudupatti,+Tamil+Nadu+637407/@11.4974408,78.2672025,17z/data=!3m1!4b1!4m5!3m4!1s0x3babeae9f1eed9c5:0xf168d6b514dcf277!8m2!3d11.4975607!4d78.2711069" color="red">R.Pudupatti</a> village in Taminadu.
+	</p>
+</div>
+
+<div class="contact">
+	<div class="contactform">
+	<form action="mailto:kamalnathlp@gmail.com" method="post">
+		<input type="text" class="inputtext" value="First Name">
+		<input type="text" class="inputtext" value="Last Name">
+		<input type="email" class="inputtext" value="Your Email">
+		<textarea cols="4" class="inputmessage" rows="6">Your Message!!!!</textarea>
+		<input type="submit" name="" class="submitbutton" value="submit">
+		
+	</form>
+	
+	
+	</div>
+
+</div>
+
+
+</div>
+</div>
+
+
+
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+		$(document).ready(function()
+		{$('a').click(function(){
+		//alert("click")});
+		var selected = $(this);
+		$('a').removeClass('active');
+		$(selected).addClass('active');
+		});
+		
+		var $a = $('.a'),
+		$b = $('.b'),
+		$c = $('.c'),
+		$d = $('.d'),
+		$e = $('.e'),
+		$pic = $('.pic'),
+		$home = $('.home'),
+		$about = $('.about');
+		$contact = $('.contact');
+		
+		$a.click(function(){
+		$home.fadeIn();
+		$pic.fadeIn();
+		$about.fadeOut();
+		$contact.fadeOut();
+		});
+		
+		$b.click(function(){
+		$about.fadeIn();
+		$pic.fadeOut();
+		$home.fadeOut();
+		$contact.fadeOut();
+		});
+		
+		$e.click(function(){
+		$about.fadeOut();
+		$pic.fadeOut();
+		$home.fadeOut();
+		$contact.fadeIn();
+		});
+		
+	});
+</script>
+
+</body>
+</html>
